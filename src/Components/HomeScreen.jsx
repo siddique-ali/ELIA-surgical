@@ -36,7 +36,6 @@ export const HomeScreen = () => {
                 <div className="w-6 h-0.5 bg-blue-700"></div>
               </div>
 
-              {/* Slider with transition based on sidebarVisible */}
               <Slider
                 sidebarVisible={sidebarVisible}
                 setSidebarVisible={setSidebarVisible}
